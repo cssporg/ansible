@@ -1,6 +1,7 @@
 ---
-- hosts: 
-   - all
+- name: This play is for to install and configure haproxy and flask services
+  hosts: localhost
+  gather_facts: no
   vars_files: 
    - /etc/csp/boot_config/metadata.json
   vars:
