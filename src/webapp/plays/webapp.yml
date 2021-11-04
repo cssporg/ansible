@@ -10,7 +10,7 @@
    - name: vars from metadata
      set_fact: vm_role={{ meta.vm_role }}  
   roles:
-   - {  role: /home/centos/docker-ansible/src/webapp/roles/appservices, when: (vm_role == 'lbserver' or vm_role == 'appserver') }
+   - {  role: /home/centos/ansible/webapp/roles/appservices, when: (vm_role == 'lbserver' or vm_role == 'appserver') }
    
    
    
