@@ -27,4 +27,9 @@ $ansible-playbook -i hosts plays/webapp.yml
 
 
 
+sh /etc/csp/boot_scripts/ssh_keys.sh
+
+
+sh /etc/csp/boot_scripts/play-books.sh
+
 
