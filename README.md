@@ -17,7 +17,7 @@ Execution Flow
 
 step 1: clone repo
 
-$git clone https://github.com/cloudstones/ansible.git
+$git clone https://github.com/csporg/ansible.git
 
 Step 2: run playbooks
 
