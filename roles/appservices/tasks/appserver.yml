@@ -4,4 +4,4 @@
   tags: installation
 
 - name: run appserver service
-  command: "docker run -it -d --name appserver {{ image_name }}"
+  command: "docker run -it -d --name appserver -p 5001:5001 {{ image_name }}"
