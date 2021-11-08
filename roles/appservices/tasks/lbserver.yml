@@ -4,4 +4,4 @@
 #  tags: installation
 
 - name: run lbserver service
-  command: docker run -it -d  {{ image_name }}
+  command: docker run -it -d -p 80:80  {{ image_name }}
